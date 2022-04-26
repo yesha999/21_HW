@@ -49,13 +49,13 @@ if __name__ == "__main__":
 
         if from_ == 'склад':
             from_place = store
-            is_success = add_func(from_place)
+            is_success = remove_func(from_place)
             if not is_success:
                 continue
 
         if from_ == 'магазин':
             from_place = shop
-            is_success = add_func(from_place)
+            is_success = remove_func(from_place)
             if not is_success:
                 continue
 
